@@ -141,10 +141,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# added by Miniconda3 installer
-#export PATH="/home/vivek/miniconda3/bin:$PATH"
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/vivek/.sdkman"
-[[ -s "/home/vivek/.sdkman/bin/sdkman-init.sh" ]] && source "/home/vivek/.sdkman/bin/sdkman-init.sh"
